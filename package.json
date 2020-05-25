@@ -2,6 +2,7 @@
 	"name": "@ctx-core/ripple-effect",
 	"version": "7.1.75",
 	"description": "ctx-core ripple-effect",
+	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
