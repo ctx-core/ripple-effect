@@ -33,7 +33,7 @@
 		"@ctx-core/logger": "^3.1.17"
 	},
 	"devDependencies": {
-		"typescript": "^3.9.3"
+		"typescript": "^3.9.5"
 	},
 	"gitHead": "b4638f389ce4bf67410e707ca79a8fe4671e73e9"
 }
