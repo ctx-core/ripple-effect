@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect",
-	"version": "7.1.80",
+	"version": "7.1.81",
 	"description": "ctx-core ripple-effect",
 	"main": "lib.js",
 	"module": "lib.js",
@@ -29,8 +29,8 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/html": "^6.1.81",
-		"@ctx-core/logger": "^3.1.17"
+		"@ctx-core/html": "^6.1.82",
+		"@ctx-core/logger": "^3.1.18"
 	},
 	"devDependencies": {
 		"typescript": "^3.9.5"
