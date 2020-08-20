@@ -32,7 +32,7 @@
 		"@ctx-core/html": "^6.1.115"
 	},
 	"devDependencies": {
-		"typescript": "^3.9.7"
+		"typescript": "^4.0.2"
 	},
 	"gitHead": "86503d18a40f540967a5c5b7ae30def54fe49de7"
 }
