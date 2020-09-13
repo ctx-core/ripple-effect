@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect",
-	"version": "7.1.121",
+	"version": "7.1.122",
 	"description": "ctx-core ripple-effect",
 	"main": "./index.js",
 	"module": "./index.js",
