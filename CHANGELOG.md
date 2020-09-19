@@ -1,5 +1,16 @@
 # @ctx-core/ripple-effect
 
+## 8.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/html@7.0.0
+
 ## 7.1.124
 
 ### Patch Changes
