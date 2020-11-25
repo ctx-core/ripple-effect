@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect
 
+## 8.0.33
+
+### Patch Changes
+
+- @ctx-core/html@7.1.1
+
 ## 8.0.32
 
 ### Patch Changes
