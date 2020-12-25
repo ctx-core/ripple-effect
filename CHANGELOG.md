@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 8.0.47
+
+### Patch Changes
+
+- - .rush
+- Updated dependencies [undefined]
+  - @ctx-core/html@7.1.15
+
 ## 8.0.46
 
 ### Patch Changes
