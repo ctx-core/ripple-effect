@@ -1,28 +1,28 @@
 import { _style } from '@ctx-core/html'
-export function __click__ripple_effect(event) {
+export function onclick_ripple_effect(event) {
 	const {
 		currentTarget, clientX, clientY
 	} = event
 	const {
-		left: left__currentTarget,
-		top: top__currentTarget
+		left: currentTarget_left,
+		top: currentTarget_top
 	} = currentTarget.getBoundingClientRect()
 	const div = document.createElement('div')
 	const { offsetHeight, offsetWidth } = currentTarget
 	const length = Math.min(offsetHeight, offsetWidth)
-	const __style = {
+	const styles = {
 		height: `${length}px`,
 		width: `${length}px`,
-		top: `${(clientY - top__currentTarget) - length / 2}px`,
-		left: `${(clientX - left__currentTarget) - length / 2}px`,
+		top: `${(clientY - currentTarget_top) - length / 2}px`,
+		left: `${(clientX - currentTarget_left) - length / 2}px`,
 		background: undefined,
 	}
-	const color__ripple = currentTarget.getAttribute('color__ripple')
-	if (color__ripple) {
-		__style.background = color__ripple
+	const ripple_color = currentTarget.getAttribute('ripple_color')
+	if (ripple_color) {
+		styles.background = ripple_color
 	}
 	div.classList.add('ripple-effect')
-	div.setAttribute('style', _style(__style))
+	div.setAttribute('style', _style(styles))
 	currentTarget.appendChild(div)
 	setTimeout(()=>{
 		div.classList.add('ripple-effect-start')
@@ -30,4 +30,7 @@ export function __click__ripple_effect(event) {
 	window.setTimeout(
 		()=>currentTarget.removeChild(div),
 		2000)
+}
+export {
+	onclick_ripple_effect as __click__ripple_effect
 }

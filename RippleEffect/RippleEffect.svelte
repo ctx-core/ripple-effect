@@ -1,6 +1,6 @@
 <script context="module">
-import { __click__ripple_effect } from './lib'
-export { __click__ripple_effect }
+import { onclick_ripple_effect, __click__ripple_effect } from '../onclick_ripple_effect'
+export { onclick_ripple_effect, __click__ripple_effect }
 </script>
 
 <script>
