@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect",
-	"version": "9.1.3",
+	"version": "9.1.4",
 	"description": "ctx-core ripple-effect",
 	"keywords": [
 		"ctx-core",
@@ -27,7 +27,7 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/html": "workspace:^8.0.3"
+		"@ctx-core/html": "workspace:^8.0.4"
 	},
 	"devDependencies": {
 		"typescript": "^4.1.3"
