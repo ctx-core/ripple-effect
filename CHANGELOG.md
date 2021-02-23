@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 9.1.9
+
+### Patch Changes
+
+- typescript: ^4.1.5 -> ^4.2.2
+- Updated dependencies [undefined]
+  - @ctx-core/html@8.0.9
+
 ## 9.1.8
 
 ### Patch Changes
