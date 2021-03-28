@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 9.1.19
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/html@8.0.19
+
 ## 9.1.18
 
 ### Patch Changes
