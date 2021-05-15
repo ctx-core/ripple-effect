@@ -1,5 +1,16 @@
 # @ctx-core/ripple-effect
 
+## 9.2.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/html@8.1.0
+
 ## 9.1.25
 
 ### Patch Changes

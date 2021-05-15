@@ -1,21 +1,19 @@
 import { _style } from '@ctx-core/html'
-export function onclick_ripple_effect(event) {
-	const {
-		currentTarget, clientX, clientY
-	} = event
+export function onclick_ripple_effect(event:MouseEvent) {
+	const { clientX, clientY } = event
+	const currentTarget = event.currentTarget as HTMLElement
 	const {
 		left: currentTarget_left,
 		top: currentTarget_top
-	} = currentTarget.getBoundingClientRect()
+	} = (currentTarget as HTMLElement).getBoundingClientRect()
 	const div = document.createElement('div')
 	const { offsetHeight, offsetWidth } = currentTarget
 	const length = Math.min(offsetHeight, offsetWidth)
-	const styles = {
+	const styles:Partial<CSSStyleDeclaration> = {
 		height: `${length}px`,
 		width: `${length}px`,
 		top: `${(clientY - currentTarget_top) - length / 2}px`,
 		left: `${(clientX - currentTarget_left) - length / 2}px`,
-		background: undefined,
 	}
 	const ripple_color = currentTarget.getAttribute('ripple_color')
 	if (ripple_color) {
