@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 9.2.1
+
+### Patch Changes
+
+- fix: target: 2018: nodejs compatability
+- Updated dependencies [undefined]
+  - @ctx-core/html@8.1.1
+
 ## 9.2.0
 
 ### Minor Changes
