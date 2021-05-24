@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 9.3.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/html@8.2.1
+
 ## 9.3.0
 
 ### Minor Changes
