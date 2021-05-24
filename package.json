@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect",
-	"version": "9.2.2",
+	"version": "9.2.3",
 	"description": "ctx-core ripple-effect",
 	"keywords": [
 		"ctx-core",
@@ -18,7 +18,7 @@
 	"author": "Brian Takita",
 	"main": "./src/index.js",
 	"module": "./src/index.js",
-	"types": "./src/index.ts",
+	"types": "./src/index.d.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
@@ -27,7 +27,7 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/html": "workspace:^8.1.9"
+		"@ctx-core/html": "workspace:^8.1.10"
 	},
 	"devDependencies": {
 		"typescript": "^4.2.4"
