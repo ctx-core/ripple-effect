@@ -1,5 +1,16 @@
 # @ctx-core/ripple-effect
 
+## 9.3.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/html@8.2.0
+
 ## 9.2.3
 
 ### Patch Changes
