@@ -1,5 +1,16 @@
 # @ctx-core/ripple-effect
 
+## 9.4.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/html@8.3.0
+
 ## 9.3.1
 
 ### Patch Changes
