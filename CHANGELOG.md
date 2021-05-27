@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 9.4.2
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/html@8.3.1
+
 ## 9.4.1
 
 ### Patch Changes
