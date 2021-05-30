@@ -1,5 +1,18 @@
 # @ctx-core/ripple-effect
 
+## 10.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/html@9.0.0
+
 ## 9.4.2
 
 ### Patch Changes
