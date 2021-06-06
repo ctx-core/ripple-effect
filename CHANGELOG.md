@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 10.0.1
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/html@9.0.3
+
 ## 10.0.0
 
 ### Major Changes
