@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 10.0.2
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/html@9.0.4
+
 ## 10.0.1
 
 ### Patch Changes
