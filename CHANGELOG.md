@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect
 
+## 11.0.5
+
+### Patch Changes
+
+- fix build
+
 ## 11.0.4
 
 ### Patch Changes
