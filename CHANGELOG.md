@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 11.0.7
+
+### Patch Changes
+
+- npm run prepare instead of npm run prepublishOnly
+- Updated dependencies [undefined]
+  - @ctx-core/html@10.0.4
+
 ## 11.0.6
 
 ### Patch Changes
