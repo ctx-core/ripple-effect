@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 11.0.8
+
+### Patch Changes
+
+- "prepare": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/html@10.0.5
+
 ## 11.0.7
 
 ### Patch Changes
