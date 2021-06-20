@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 11.0.9
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/html@10.0.6
+
 ## 11.0.8
 
 ### Patch Changes
