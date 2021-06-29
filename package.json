@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect",
-	"version": "11.0.15",
+	"version": "11.0.16",
 	"description": "ctx-core ripple-effect",
 	"keywords": [
 		"ctx-core",
@@ -28,7 +28,7 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/html": "workspace:^10.1.0",
+		"@ctx-core/html": "workspace:^10.2.0",
 		"svelte": "^3.38.3"
 	},
 	"devDependencies": {
