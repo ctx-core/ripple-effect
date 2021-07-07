@@ -28,7 +28,7 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/html": "workspace:^10.2.2",
+		"@ctx-core/html": "workspace:^10.2.3",
 		"svelte": "^3.38.3"
 	},
 	"devDependencies": {
