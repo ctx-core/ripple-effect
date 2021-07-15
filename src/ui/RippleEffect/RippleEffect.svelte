@@ -1,6 +1,6 @@
 <script context="module">
-import { onclick_ripple_effect, __click__ripple_effect } from '../onclick_ripple_effect'
-export { onclick_ripple_effect, __click__ripple_effect }
+import { onclick_ripple_effect } from '../../onclick_ripple_effect.js'
+export { onclick_ripple_effect }
 </script>
 
 <script>

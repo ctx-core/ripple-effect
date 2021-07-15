@@ -1,1 +1,1 @@
-export * from './RippleEffect'
+export * from './RippleEffect/index.js'
