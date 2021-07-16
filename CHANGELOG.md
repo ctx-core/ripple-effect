@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 12.0.6
+
+### Patch Changes
+
+- fix: index.cjs: module.exports = require('./index.js')
+- Updated dependencies [undefined]
+  - @ctx-core/html@11.0.7
+
 ## 12.0.5
 
 ### Patch Changes
