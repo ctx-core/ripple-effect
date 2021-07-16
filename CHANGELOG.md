@@ -1,5 +1,21 @@
 # @ctx-core/ripple-effect
 
+## 12.0.11
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/html@11.0.11
+
+## 12.0.10
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/html@11.0.10
+
 ## 12.0.9
 
 ### Patch Changes
