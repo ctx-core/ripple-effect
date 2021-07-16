@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 12.0.7
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/html@11.0.8
+
 ## 12.0.6
 
 ### Patch Changes
