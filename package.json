@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect",
-	"version": "12.0.4",
+	"version": "12.0.5",
 	"description": "ctx-core ripple-effect",
 	"keywords": [
 		"ctx-core",
@@ -16,28 +16,30 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
+	"type": "module",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"exports": {
-		"require": "./dist/index.js",
-		"import": "./dist/index.mjs"
+		"require": "./dist/index.cjs",
+		"import": "./dist/index.js"
 	},
 	"scripts": {
 		"build": "npm run clean && npm run copy-mjs && npm run copy-components && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
-		"copy-mjs": "cd dist && echo \"export * from './index.js'\" > index.mjs",
+		"copy-mjs": "cd dist && echo \"require = require('esm')(module/*, options*/)\nmodule.exports = require('./main.js')\nexport * from './index.js'\" > index.cjs",
 		"copy-components": "cd src && find . | grep \\.svelte$ | awk '{print \"mkdir -p dirname \"$1\" && cp -f \"$1\" ../dist/\"$1}'",
 		"exec": "$@",
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/html": "workspace:^11.0.4",
+		"@ctx-core/html": "workspace:^11.0.6",
+		"esm": "^3.2.25",
 		"svelte": "^3.38.3"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.28",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.29",
 		"typescript": "^4.3.5"
 	},
 	"publishConfig": {

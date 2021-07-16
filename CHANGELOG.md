@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 12.0.5
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/html@11.0.6
+
 ## 12.0.4
 
 ### Patch Changes
