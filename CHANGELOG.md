@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 12.0.14
+
+### Patch Changes
+
+- fix: "exports": "./package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/html@11.0.14
+
 ## 12.0.13
 
 ### Patch Changes
