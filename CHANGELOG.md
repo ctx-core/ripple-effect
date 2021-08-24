@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect
 
+## 12.0.38
+
+### Patch Changes
+
+- svelte: ^3.42.2 -> ^3.42.3
+
 ## 12.0.37
 
 ### Patch Changes
