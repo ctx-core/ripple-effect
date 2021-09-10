@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect",
-	"version": "12.0.50",
+	"version": "12.0.51",
 	"description": "ctx-core ripple-effect",
 	"keywords": [
 		"ctx-core",
@@ -39,7 +39,7 @@
 	"dependencies": {
 		"@ctx-core/html": "workspace:^11.0.16",
 		"esm": "^3.2.25",
-		"svelte": "^3.42.4"
+		"svelte": "^3.42.5"
 	},
 	"devDependencies": {
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.68",
