@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect",
-	"version": "12.0.60",
+	"version": "12.0.61",
 	"description": "ctx-core ripple-effect",
 	"keywords": [
 		"ctx-core",
@@ -42,7 +42,7 @@
 		"svelte": "^3.43.1"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.74",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.76",
 		"typescript": "^4.4.3"
 	},
 	"publishConfig": {
