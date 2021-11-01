@@ -1,5 +1,14 @@
 # @ctx-core/ripple-effect
 
+## 12.0.62
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- svelte: ^3.43.1 -> ^3.44.0
+- Updated dependencies [undefined]
+  - @ctx-core/html@11.0.18
+
 ## 12.0.61
 
 ### Patch Changes
