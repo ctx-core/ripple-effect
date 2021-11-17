@@ -1,9 +1,9 @@
-<script context="module">
+<script context="module" lang="ts">
 import { onclick_ripple_effect } from '../../onclick_ripple_effect.js'
 export { onclick_ripple_effect }
 </script>
 
-<script>
+<script lang="ts">
 // See https://codepen.io/Craigtut/pen/dIfzv
 </script>
 

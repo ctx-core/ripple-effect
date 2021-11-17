@@ -1,5 +1,5 @@
 import { style_ } from '@ctx-core/html'
-export function onclick_ripple_effect(event:MouseEvent) {
+export function onclick_ripple_effect(event:MouseEvent):void {
 	const { clientX, clientY } = event
 	const currentTarget = event.currentTarget as HTMLElement
 	const {

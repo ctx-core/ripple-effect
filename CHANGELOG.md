@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect
 
+## 12.0.66
+
+### Patch Changes
+
+- RippleEffect: lang=ts
+
 ## 12.0.65
 
 ### Patch Changes
