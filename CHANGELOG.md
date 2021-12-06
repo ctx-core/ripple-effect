@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 12.0.74
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/html@11.0.28
+
 ## 12.0.73
 
 ### Patch Changes
