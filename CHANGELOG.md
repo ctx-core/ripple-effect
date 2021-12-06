@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 12.0.72
+
+### Patch Changes
+
+- @swc/core: ^1.2.117 -> ^1.2.118
+- Updated dependencies
+  - @ctx-core/html@11.0.26
+
 ## 12.0.71
 
 ### Patch Changes
