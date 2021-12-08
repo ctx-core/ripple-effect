@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect
 
+## 12.0.75
+
+### Patch Changes
+
+- update dependencies
+
 ## 12.0.74
 
 ### Patch Changes
