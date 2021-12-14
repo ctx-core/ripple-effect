@@ -35,7 +35,7 @@
 		"@ctx-core/html": "workspace:^11.0.29"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.85",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.86",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.120",
 		"typescript": "next"
