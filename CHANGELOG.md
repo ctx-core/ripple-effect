@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 13.0.1
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/html@11.0.30
+
 ## 13.0.0
 
 ### Major Changes
