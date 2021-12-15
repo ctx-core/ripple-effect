@@ -12,15 +12,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ctx-core/ripple-effect/issues"
+		"url": "https://github.com/ctx-core/ripple-effect.git"
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
 	"exports": {
 		".": {
-			"types": "./src/index.ts",
-			"import": "./dist/index.js"
+			"import": "./dist/index.js",
+			"types": "./src/index.ts"
 		},
 		"./package.json": "./package.json"
 	},
@@ -32,10 +32,10 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/html": "workspace:^11.0.30"
+		"@ctx-core/html": "workspace:^11.0.31"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.88",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.89",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.120",
 		"rimraf": "^3.0.2",
@@ -45,5 +45,5 @@
 		"access": "public",
 		"cache": "~/.npm"
 	},
-	"svelte": "index.js"
+	"svelte": "./dist/index.js"
 }

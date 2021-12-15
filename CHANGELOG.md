@@ -4,6 +4,14 @@
 
 ### Patch Changes
 
+- fix: package.json: exports
+- Updated dependencies
+  - @ctx-core/html@11.0.31
+
+## 13.0.1
+
+### Patch Changes
+
 - package.json: svelte: ./dist/index.js
 - Updated dependencies
   - @ctx-core/html@11.0.30
