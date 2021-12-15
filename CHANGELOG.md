@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 13.0.2
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/html@11.0.32
+
 ## 13.0.1
 
 ### Patch Changes
