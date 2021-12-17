@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 13.0.5
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/html@11.0.35
+
 ## 13.0.4
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect",
-	"version": "13.0.4",
+	"version": "13.0.5",
 	"description": "ctx-core ripple-effect",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,7 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./dist/index.d.ts",
+	"types": "./src/index.ts",
 	"exports": {
 		".": {
 			"import": "./dist/index.js"
@@ -33,10 +33,10 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/html": "workspace:^11.0.34"
+		"@ctx-core/html": "workspace:^11.0.35"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.92",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.93",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.120",
 		"rimraf": "^3.0.2",
