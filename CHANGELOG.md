@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 13.0.6
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/html@11.0.36
+
 ## 13.0.5
 
 ### Patch Changes
