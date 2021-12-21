@@ -36,7 +36,7 @@
 		"@ctx-core/html": "workspace:^11.0.37"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.96",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.97",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.121",
 		"rimraf": "^3.0.2",
