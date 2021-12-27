@@ -26,8 +26,8 @@
 	},
 	"scripts": {
 		"build": "npm run compile",
-		"clean": "rimraf dist && npm run clean_tsbuildinfo",
-		"clean_tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.d.ts",
+		"clean": "rimraf dist && npm run clean:tsbuildinfo",
+		"clean:tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.d.ts",
 		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
