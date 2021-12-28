@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect
 
+## 13.0.8
+
+### Patch Changes
+
+- fix: package.json: compile types: + compile:source,compile:declaration
+
 ## 13.0.7
 
 ### Patch Changes
