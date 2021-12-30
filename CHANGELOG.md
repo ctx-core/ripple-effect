@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect
 
+## 13.1.0
+
+### Minor Changes
+
+- onclick_ripple_effect: support data-ripple-color element attribute to set the color
+
 ## 13.0.8
 
 ### Patch Changes

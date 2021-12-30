@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect",
-	"version": "13.0.8",
+	"version": "13.1.0",
 	"description": "ctx-core ripple-effect",
 	"keywords": [
 		"ctx-core",
@@ -39,7 +39,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.123",
+		"@swc/core": "^1.2.124",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},

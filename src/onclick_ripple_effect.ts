@@ -15,7 +15,9 @@ export function onclick_ripple_effect(event:MouseEvent):void {
 		top: `${(clientY - currentTarget_top) - length / 2}px`,
 		left: `${(clientX - currentTarget_left) - length / 2}px`,
 	}
-	const ripple_color = currentTarget.getAttribute('ripple_color')
+	const ripple_color =
+		currentTarget.getAttribute('data-ripple-color')
+		|| currentTarget.getAttribute('ripple_color')
 	if (ripple_color) {
 		styles.background = ripple_color
 	}
