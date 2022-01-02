@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 13.1.1
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/html@11.0.38
+
 ## 13.1.0
 
 ### Minor Changes
