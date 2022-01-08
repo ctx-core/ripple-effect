@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 13.1.4
+
+### Patch Changes
+
+- sideEffects = false
+- Updated dependencies
+  - @ctx-core/html@11.0.41
+
 ## 13.1.3
 
 ### Patch Changes
