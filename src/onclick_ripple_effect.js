@@ -13,16 +13,16 @@ export function onclick_ripple_effect(event) {
 	const styles = {
 		height: `${length}px`, width: `${length}px`, top: `${clientY - currentTarget_top - length / 2}px`, left: `${clientX - currentTarget_left - length / 2}px`
 	}
-	const ripple_color = currentTarget.getAttribute('data-ripple-color') || currentTarget.getAttribute('ripple_color')
+	const ripple_color =
+		currentTarget.getAttribute('data-ripple-color')
+		|| currentTarget.getAttribute('ripple_color')
 	if (ripple_color) {
 		styles.background = ripple_color
 	}
 	div.classList.add('ripple-effect')
 	div.setAttribute('style', style_(styles))
 	currentTarget.appendChild(div)
-	setTimeout(()=>{
-		div.classList.add('ripple-effect-start')
-	}, 0)
+	setTimeout(()=>div.classList.add('ripple-effect-start'), 0)
 	window.setTimeout(()=>currentTarget.removeChild(div), 2000)
 }
 export { onclick_ripple_effect as __click__ripple_effect }
