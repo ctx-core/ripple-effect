@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect",
-	"version": "13.1.6",
+	"version": "13.1.7",
 	"description": "ctx-core ripple-effect",
 	"keywords": [
 		"ctx-core",
@@ -20,9 +20,7 @@
 	"types": "./src/index.d.ts",
 	"svelte": "./src/index.js",
 	"exports": {
-		".": {
-			"import": "./src/index.js"
-		},
+		".": "./src/index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -35,7 +33,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/html": "^11.0.43"
+		"@ctx-core/html": "workspace:^11.0.44"
 	},
 	"devDependencies": {
 		"c8": "^7.11.0",
