@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/ripple-effect",
-	"version": "13.1.15",
+	"version": "13.1.16",
 	"description": "ctx-core ripple-effect",
 	"keywords": [
 		"ctx-core",
@@ -33,7 +33,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/html": "^11.0.52"
+		"@ctx-core/html": "^11.0.53"
 	},
 	"devDependencies": {
 		"c8": "^7.12.0",
