@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 13.1.27
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/html@11.0.65
+
 ## 13.1.26
 
 ### Patch Changes
