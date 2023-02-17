@@ -1,9 +1,8 @@
-/// <reference lib="dom" />
 import { style_ } from '@ctx-core/html'
 /**
  * @param {MouseEvent}event
  */
-export function onclick_ripple_effect(event) {
+export function ripple_effect__onclick(event) {
 	const { clientX, clientY } = event
 	const currentTarget = event.currentTarget
 	const { left: currentTarget_left, top: currentTarget_top } = currentTarget.getBoundingClientRect()
@@ -25,4 +24,7 @@ export function onclick_ripple_effect(event) {
 	setTimeout(()=>div.classList.add('ripple-effect-start'), 0)
 	window.setTimeout(()=>currentTarget.removeChild(div), 2000)
 }
-export { onclick_ripple_effect as __click__ripple_effect }
+export {
+	ripple_effect__onclick as onclick_ripple_effect,
+	ripple_effect__onclick as __click__ripple_effect, 
+}
