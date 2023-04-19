@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 13.2.48
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/html@11.2.30
+
 ## 13.2.47
 
 ### Patch Changes
