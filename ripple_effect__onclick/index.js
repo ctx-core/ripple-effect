@@ -10,7 +10,10 @@ export function ripple_effect__onclick(event) {
 	const { offsetHeight, offsetWidth } = currentTarget
 	const length = Math.min(offsetHeight, offsetWidth)
 	const styles = {
-		height: `${length}px`, width: `${length}px`, top: `${clientY - currentTarget_top - length / 2}px`, left: `${clientX - currentTarget_left - length / 2}px`
+		height: `${length}px`,
+		width: `${length}px`,
+		top: `${clientY - currentTarget_top - length / 2}px`,
+		left: `${clientX - currentTarget_left - length / 2}px`
 	}
 	const ripple_color =
 		currentTarget.getAttribute('data-ripple-color')
@@ -26,5 +29,5 @@ export function ripple_effect__onclick(event) {
 }
 export {
 	ripple_effect__onclick as onclick_ripple_effect,
-	ripple_effect__onclick as __click__ripple_effect, 
+	ripple_effect__onclick as __click__ripple_effect,
 }

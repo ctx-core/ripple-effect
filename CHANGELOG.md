@@ -1,5 +1,23 @@
 # @ctx-core/ripple-effect
 
+## 13.3.0
+
+### Minor Changes
+
+- fix:types package.json exports
+- tsconfig:
+
+      "module": "ESNext"
+      "moduleResolution": "nodenext"
+      "target": "ESNext"
+
+### Patch Changes
+
+- package.json: - "svelte": "./src/index.js"
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/html@11.6.0
+
 ## 13.2.74
 
 ### Patch Changes
