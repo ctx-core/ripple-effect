@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 13.3.3
+
+### Patch Changes
+
+- package.json: files: + \*.js
+- Updated dependencies
+  - @ctx-core/html@11.6.3
+
 ## 13.3.2
 
 ### Patch Changes
