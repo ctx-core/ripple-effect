@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 13.3.1
+
+### Patch Changes
+
+- tsx: ^4.0.0 -> ^4.1.2
+- Updated dependencies
+  - @ctx-core/html@11.6.1
+
 ## 13.3.0
 
 ### Minor Changes
