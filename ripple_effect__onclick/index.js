@@ -1,4 +1,4 @@
-import { style_ } from '@ctx-core/html'
+import { html_style_ } from 'ctx-core/html'
 /**
  * @param {MouseEvent}event
  */
@@ -22,7 +22,7 @@ export function ripple_effect__onclick(event) {
 		styles.background = ripple_color
 	}
 	div.classList.add('ripple-effect')
-	div.setAttribute('style', style_(styles))
+	div.setAttribute('style', html_style_(styles))
 	currentTarget.appendChild(div)
 	setTimeout(()=>div.classList.add('ripple-effect-start'), 0)
 	window.setTimeout(()=>currentTarget.removeChild(div), 2000)
