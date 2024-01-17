@@ -1,5 +1,11 @@
 # @ctx-core/ripple-effect
 
+## 13.3.98
+
+### Patch Changes
+
+- ctx-core: ^5.21.0 -> ^5.22.0
+
 ## 13.3.97
 
 ### Patch Changes
