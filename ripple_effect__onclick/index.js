@@ -25,7 +25,7 @@ export function ripple_effect__onclick(event) {
 	div.setAttribute('style', html_style_(styles))
 	currentTarget.appendChild(div)
 	setTimeout(()=>div.classList.add('ripple-effect-start'), 0)
-	window.setTimeout(()=>currentTarget.removeChild(div), 2000)
+	setTimeout(()=>currentTarget.removeChild(div), 2000)
 }
 export {
 	ripple_effect__onclick as onclick_ripple_effect,
