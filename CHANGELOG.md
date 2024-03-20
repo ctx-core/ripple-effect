@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 13.3.159
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 13.3.158
 
 ### Patch Changes
