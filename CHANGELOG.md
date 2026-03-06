@@ -1,5 +1,13 @@
 # @ctx-core/ripple-effect
 
+## 13.3.210
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 13.3.209
 
 ### Patch Changes
